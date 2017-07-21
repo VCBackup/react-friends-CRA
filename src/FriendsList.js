@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
-import Friend from './Friend.js';
 import friends from './friends.js';
+import Friend from './Friend.js';
 
 class FriendsList extends Component {
   constructor (props){
     super (props);
 
-    this.state = {
-      searchText: '',
-      orderBy: 'name',
-      order: 'ascending'
+      this.state = {
+        searchText: '',
+        orderBy: 'name',
+        order: 'ascending'
     };
   }
 
